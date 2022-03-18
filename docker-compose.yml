@@ -1,0 +1,7 @@
+services:
+  tensorflow:
+    tty: true
+    image: tensorflow/tensorflow
+    volumes:
+      - '.:/bitnami/projects/src'
+      - '.:/bitnami/projects/data'
